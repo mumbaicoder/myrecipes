@@ -48,7 +48,7 @@ group :development do
 end
 
 group :production do
-  gems 'pg'
-  gems 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
